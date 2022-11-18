@@ -88,6 +88,11 @@ hr{
     border-radius: 100%;
     width: 220px;
     padding-bottom: 2rem;
+    transition : all 0.5s ease-out;
+}
+
+.profile-image:hover{
+    transform: scale(1.1); 
 }
 
 .right-side-box{
