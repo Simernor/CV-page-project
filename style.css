@@ -92,16 +92,21 @@ hr{
 }
 
 .profile-image:hover{
-    transform: scale(1.1); 
+    transform: scale(1.1);
+    
 }
 
 .right-side-box{
     padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right: 8rem;
     padding-top: 5rem;
     padding-bottom: 1rem;
 }
 
 .right-side-box > p{
     color: #675E69;
+}
+
+#hidden{
+    transition: 1s;
 }

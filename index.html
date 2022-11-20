@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+    <script src = java.js></script>
     <title>CV</title>
 </head>
 <body class = "main-box">
@@ -14,10 +15,11 @@
     
     <section class = "left-side-box"><article>
 
-        <div class = "image-container"><img src="assets/image.png" class = "profile-image"></div>
+        <div class = "image-container" onmouseover="revealText()" onmouseleave="hideText()" onmouseover="hideTextRight()" onmouseleave="revealTextRight()"><img src="assets/image.png" class = "profile-image"></div>
         <h1>SIMON NORENIUS</h1>
         <h2>WEBBUTVECKLARE</h2>
         <hr>
+        <div id = "hidden" style="display:none">
         <h3>PERSONLIG PROFIL</h3>
         <p>Jag är för närvarande en vid Lexicon yrkesstuderande frontendprogrammerare
             med långtgående intresse för webbdesign och systemutveckling
@@ -32,11 +34,11 @@
         <p>Adress:</p>
         <p>Github:</p>
         <p>LinkedIn:</p>
+        </div>
 
     </article></section>
 
     <section class = "right-side-box">
-
         <h4>UTBILDNING</h4>
         <h5>Stockholms Universitet, Institutionen för data- och systemvetenskap (DSV), Södertörns Högskola</h5>
         <h6>Fil. mag. Filosofi, 2018</h6>
@@ -57,9 +59,7 @@
         <p>- Skicklig föreläsare som både kan förklara och entusiasmera för intresseämnen.</p>
         <br><br>
         <h4>FRITIDSVERKSAMHET</h4>
-        <p>Jag bloggar för närvarande om teknik och nya medier. Har under åren ägnat mig åt.enkla spelprojekt och annan webbsideutveckling.
-        </p>
-
+        <p>Jag bloggar för närvarande om teknik och nya medier. Har under åren ägnat mig åt.enkla spelprojekt och annan webbsideutveckling.</p>
     </section>
 
     <div class = "blackground"></div>
