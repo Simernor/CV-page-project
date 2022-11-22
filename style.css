@@ -82,13 +82,16 @@ hr{
 .image-container{
     display: flex;
     justify-content: center;
+    padding-top: 1em;
 }
 
 .profile-image{
-    border-radius: 100%;
+    border-radius: 50%;
+    border: 4px solid darkblue;
     width: 220px;
     padding-bottom: 2rem;
     transition : all 0.5s ease-out;
+    padding: 0%;
 }
 
 .profile-image:hover{
