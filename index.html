@@ -15,11 +15,11 @@
     
     <section class = "left-side-box"><article>
 
-        <div class = "image-container"><img src="assets/image.png" class = "profile-image"></div>
-        <div onmouseover="revealText()" onmouseleave="hideText()""><h1>SIMON NORENIUS</h1></div>
+        <div class = "image-container"><img src="assets/image.png" class = "profile-image" onmouseover="revealText()"></div>
+        <div><h1>SIMON NORENIUS</h1></div>
         <h2>WEBBUTVECKLARE</h2>
         <hr>
-        <div id = "hidden" style="display:none">
+        <div class = "invisible" id = "left">
         <h3>PERSONLIG PROFIL</h3>
         <p>Jag är för närvarande en vid Lexicon yrkesstuderande frontendprogrammerare
             med långtgående intresse för webbdesign och systemutveckling
@@ -38,7 +38,7 @@
 
     </article></section>
 
-    <section class = "right-side-box">
+    <section class = "right-side-box" id = "right">
         <h4>UTBILDNING</h4>
         <h5>Stockholms Universitet, Institutionen för data- och systemvetenskap (DSV), Södertörns Högskola</h5>
         <h6>Fil. mag. Filosofi, 2018</h6>
@@ -63,7 +63,6 @@
     </section>
 
     <div class = "blackground"></div>
-
 
 </body>
 </html>
