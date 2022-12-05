@@ -9,7 +9,7 @@ body{
 
 p{
     margin: 0;
-    color: rgb(96, 210, 249);
+    color: rgb(255, 255, 255);
     font-size: 12px;
     font-family: 'Montserrat';
 }
@@ -97,7 +97,7 @@ hr{
     border-radius: 50%;
     border: 4px solid rgb(55, 55, 126);
     width: 220px;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     transition : all 0.5s ease-out;
     padding: 0%;
 }
@@ -107,10 +107,14 @@ hr{
     filter: grayscale(0%);
 }
 
+.centered{
+    text-align: center
+}
+
 .right-side-box{
     padding-left: 2rem;
     padding-right: 8rem;
-    padding-top: 5rem;
+    padding-top: 7rem;
     padding-bottom: 1rem;
     opacity: 0;
     filter: blur(4px);
@@ -118,8 +122,9 @@ hr{
     transition: all 1s;
 }
 
-.right-side-box > p{
-    color: #302c30;
+.right-side-box p{
+    color: #000000;
+    font-size: small;
 }
 
 .visibility{
